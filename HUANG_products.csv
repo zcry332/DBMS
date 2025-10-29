@@ -1,0 +1,37 @@
+ProductID,ProductName,ProductDescription,ProductPrice,VendorName
+1122,Airframe fasteners,Airframe fasteners from Hulkey Fasteners,4.25,Hulkey Fasteners
+1243,Airframe fasteners,Airframe fasteners from Alum Sheeting,4.25,Alum Sheeting
+1369,Airframe fasteners,Airframe fasteners from Durrable Products,4.20,Durrable Products
+3166,Electrical Connector,Electrical Connector from Hulkey Fasteners,1.25,Hulkey Fasteners
+4111,Bolt-nut package,Bolt-nut package from Spacetime Technologies,3.55,Spacetime Technologies
+4224,Bolt-nut package,Bolt-nut package from Alum Sheeting,3.95,Alum Sheeting
+4312,Bolt-nut package,Bolt-nut package from Steelpin Inc.,3.75,Steelpin Inc.
+4569,Bolt-nut package,Bolt-nut package from Durrable Products,3.50,Durrable Products
+5066,Shielded Cable/ft.,Shielded Cable/ft. from Hulkey Fasteners,0.95,Hulkey Fasteners
+5125,Shielded Cable/ft.,Shielded Cable/ft. from Spacetime Technologies,1.15,Spacetime Technologies
+5166,Electrical Connector,Electrical Connector from Fast-Tie Aerospace,1.25,Fast-Tie Aerospace
+5234,Electrical Connector,Electrical Connector from Steelpin Inc.,1.65,Steelpin Inc.
+5275,Shielded Cable/ft.,Shielded Cable/ft. from Durrable Products,1.00,Durrable Products
+5319,Shielded Cable/ft.,Shielded Cable/ft. from Steelpin Inc.,1.10,Steelpin Inc.
+5417,Control Panel,Control Panel from Alum Sheeting,255.00,Alum Sheeting
+5454,Control Panel,Control Panel from Durrable Products,220.00,Durrable Products
+5462,Shielded Cable/ft.,Shielded Cable/ft. from Fast-Tie Aerospace,1.05,Fast-Tie Aerospace
+5634,Side Panel,Side Panel from Alum Sheeting,185.00,Alum Sheeting
+5677,Side Panel,Side Panel from Steelpin Inc.,195.00,Steelpin Inc.
+5689,Side Panel,Side Panel from Fast-Tie Aerospace,175.00,Fast-Tie Aerospace
+6321,O-Ring,O-Ring from Fast-Tie Aerospace,2.45,Fast-Tie Aerospace
+6431,O-Ring,O-Ring from Manley Valve,2.85,Manley Valve
+6433,O-Ring,O-Ring from Pylon Accessories,2.95,Pylon Accessories
+6489,O-Ring,O-Ring from Spacetime Technologies,3.00,Spacetime Technologies
+7258,Pressure Gauge,Pressure Gauge from Manley Valve,100.50,Manley Valve
+7260,Pressure Gauge,Pressure Gauge from Durrable Products,90.00,Durrable Products
+7268,Pressure Gauge,Pressure Gauge from Fast-Tie Aerospace,95.00,Fast-Tie Aerospace
+8008,Machined Valve,Machined Valve from Steelpin Inc.,645.00,Steelpin Inc.
+8148,Machined Valve,Machined Valve from Manley Valve,655.50,Manley Valve
+9399,Gasket,Gasket from Durrable Products,3.65,Durrable Products
+9752,Gasket,Gasket from Spacetime Technologies,4.05,Spacetime Technologies
+9764,Gasket,Gasket from Pylon Accessories,3.75,Pylon Accessories
+9955,Door Decal,Door Decal from Manley Valve,0.55,Manley Valve
+9966,Hatch Decal,Hatch Decal from Hulkey Fasteners,0.75,Hulkey Fasteners
+9967,Hatch Decal,Hatch Decal from Manley Valve,0.85,Manley Valve
+9977,Panel Decal,Panel Decal from Manley Valve,1.00,Manley Valve
