@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Database Management Project</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            overflow: hidden;
+        }
+        
+        header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 60px 40px;
+            text-align: center;
+        }
+        
+        header h1 {
+            font-size: 3em;
+            margin-bottom: 10px;
+            font-weight: 700;
+        }
+        
+        header p {
+            font-size: 1.2em;
+            opacity: 0.9;
+        }
+        
+        .content {
+            padding: 40px;
+        }
+        
+        .section {
+            margin-bottom: 40px;
+        }
+        
+        .section h2 {
+            color: #667eea;
+            font-size: 2em;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 3px solid #667eea;
+        }
+        
+        .section h3 {
+            color: #764ba2;
+            font-size: 1.5em;
+            margin: 25px 0 15px 0;
+        }
+        
+        .project-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+        }
+        
+        .card {
+            background: #f8f9fa;
+            border-radius: 10px;
+            padding: 25px;
+            border-left: 4px solid #667eea;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+        }
+        
+        .card h4 {
+            color: #667eea;
+            margin-bottom: 10px;
+            font-size: 1.3em;
+        }
+        
+        .card ul {
+            list-style: none;
+            padding-left: 0;
+        }
+        
+        .card li {
+            padding: 8px 0;
+            border-bottom: 1px solid #e0e0e0;
+        }
+        
+        .card li:last-child {
+            border-bottom: none;
+        }
+        
+        .card li::before {
+            content: "▸ ";
+            color: #764ba2;
+            font-weight: bold;
+        }
+        
+        .file-link {
+            color: #667eea;
+            text-decoration: none;
+            font-weight: 500;
+        }
+        
+        .file-link:hover {
+            text-decoration: underline;
+        }
+        
+        .tech-stack {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-top: 15px;
+        }
+        
+        .tech-badge {
+            background: #667eea;
+            color: white;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-size: 0.9em;
+            font-weight: 500;
+        }
+        
+        footer {
+            background: #f8f9fa;
+            padding: 30px 40px;
+            text-align: center;
+            color: #666;
+            border-top: 1px solid #e0e0e0;
+        }
+        
+        .description {
+            background: #f0f4ff;
+            padding: 20px;
+            border-radius: 10px;
+            margin: 20px 0;
+            border-left: 4px solid #667eea;
+        }
+        
+        code {
+            background: #f4f4f4;
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-family: 'Courier New', monospace;
+            font-size: 0.9em;
+            color: #e83e8c;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🗄️ Database Management Project</h1>
+            <p>Comprehensive database systems and management solutions</p>
+        </header>
+        
+        <div class="content">
+            <div class="section">
+                <h2>📋 Project Overview</h2>
+                <div class="description">
+                    <p>This repository contains a comprehensive database management project featuring a travel agency database system, product extraction tools, and various database design implementations including normalization and NoSQL concepts.</p>
+                </div>
+            </div>
+            
+            <div class="section">
+                <h2>🎯 Main Project: Travel Agency Database</h2>
+                <div class="project-grid">
+                    <div class="card">
+                        <h4>Database Schema</h4>
+                        <ul>
+                            <li><a href="ZhenjunHuang&XinHuang-DBTermProject/create_table.sql" class="file-link">create_table.sql</a> - Complete database schema</li>
+                            <li><a href="ZhenjunHuang&XinHuang-DBTermProject/insert_dataset.sql" class="file-link">insert_dataset.sql</a> - Sample data insertion</li>
+                            <li><a href="ZhenjunHuang&XinHuang-DBTermProject/booking_view.sql" class="file-link">booking_view.sql</a> - Database views</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="card">
+                        <h4>Database Features</h4>
+                        <ul>
+                            <li><a href="ZhenjunHuang&XinHuang-DBTermProject/stored_procedures.sql" class="file-link">stored_procedures.sql</a> - Stored procedures</li>
+                            <li><a href="ZhenjunHuang&XinHuang-DBTermProject/triggers.sql" class="file-link">triggers.sql</a> - Database triggers</li>
+                        </ul>
+                        <div class="tech-stack">
+                            <span class="tech-badge">MySQL</span>
+                            <span class="tech-badge">SQL</span>
+                            <span class="tech-badge">Database Design</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <h3>Database Structure</h3>
+                <p>The travel agency database includes the following main entities:</p>
+                <ul style="margin-left: 20px; margin-top: 10px;">
+                    <li><strong>Customer</strong> - Customer information and profiles</li>
+                    <li><strong>Trip</strong> - Travel packages and trip details</li>
+                    <li><strong>Booking</strong> - Booking records and status tracking</li>
+                    <li><strong>Flight</strong> - Flight information and scheduling</li>
+                    <li><strong>Hotel</strong> - Hotel details and accommodations</li>
+                    <li><strong>Payment</strong> - Payment processing and records</li>
+                    <li><strong>Rating</strong> - Customer feedback and ratings</li>
+                    <li><strong>Travel Insurance</strong> - Insurance options and coverage</li>
+                </ul>
+            </div>
+            
+            <div class="section">
+                <h2>🛠️ Tools & Scripts</h2>
+                <div class="project-grid">
+                    <div class="card">
+                        <h4>Python Scripts</h4>
+                        <ul>
+                            <li><a href="extract_products.py" class="file-link">extract_products.py</a> - Product data extraction</li>
+                            <li><a href="fetch_products.py" class="file-link">fetch_products.py</a> - Product fetching utility</li>
+                        </ul>
+                        <div class="tech-stack">
+                            <span class="tech-badge">Python</span>
+                            <span class="tech-badge">MySQL Connector</span>
+                            <span class="tech-badge">Pandas</span>
+                        </div>
+                    </div>
+                    
+                    <div class="card">
+                        <h4>Data Files</h4>
+                        <ul>
+                            <li><a href="HUANG_products.csv" class="file-link">HUANG_products.csv</a> - Product dataset</li>
+                            <li><a href="Lab5-Normalization.xlsx" class="file-link">Lab5-Normalization.xlsx</a> - Normalization lab</li>
+                            <li><a href="Lab6-NoSQL.json" class="file-link">Lab6-NoSQL.json</a> - NoSQL lab data</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="section">
+                <h2>📚 Lab Work</h2>
+                <div class="description">
+                    <p>This project includes lab assignments covering:</p>
+                    <ul style="margin-left: 20px; margin-top: 10px;">
+                        <li><strong>Lab 5:</strong> Database Normalization concepts and practices</li>
+                        <li><strong>Lab 6:</strong> NoSQL database design and JSON data structures</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="section">
+                <h2>🚀 Getting Started</h2>
+                <div class="description">
+                    <h3>Prerequisites</h3>
+                    <p>Install the required dependencies:</p>
+                    <code>pip install -r requirements.txt</code>
+                    
+                    <h3 style="margin-top: 20px;">Database Setup</h3>
+                    <p>1. Create a MySQL database</p>
+                    <p>2. Run <code>create_table.sql</code> to set up the schema</p>
+                    <p>3. Execute <code>insert_dataset.sql</code> to populate sample data</p>
+                    <p>4. Apply stored procedures and triggers as needed</p>
+                </div>
+            </div>
+        </div>
+        
+        <footer>
+            <p>Database Management Project | Built with ❤️ for learning and education</p>
+            <p style="margin-top: 10px; font-size: 0.9em;">View source code on <a href="https://github.com" class="file-link">GitHub</a></p>
+        </footer>
+    </div>
+</body>
+</html>
